@@ -20,13 +20,13 @@ a:hover {
   max-width: 940px;
   margin: 0 auto;
   font-size: 0;
-  padding: 60px 0 0;
+  padding: 40px 0 0;
 }
 .left, .right {
   display: inline-block;
   width: 50%;
   height: 100%;
-  font-size: 20px;
+  font-size: 14px;
   vertical-align: top;
   padding: 20px;
   color: #999999;
@@ -99,13 +99,14 @@ a:hover {
   font-style: italic;
   color: #515151;
   margin-top: 32px;
+  font-size: 40px;
 }
 .points {
   margin-top: 25px;
   padding: 0;
   list-style: none;
 }
-.points li{
+.points > li{
   margin-bottom: 10px;
   padding-left: 40px;
   background-image: url('../bullet.png');
@@ -114,12 +115,19 @@ a:hover {
   background-repeat: no-repeat;
   background-position: 0 5px;
 }
+.points ul{
+  padding-left: 20px;
+}
+.kakao{
+  width:16px;
+  vertical-align: middle;
+}
 .box{
   display: inline-block;
   border: 1px solid #dddddd;
   border-radius: 10px;
   width: 43%;
-  padding: 8px 15px;
+  padding: 8px 5px;
   text-align: center;
   color: #515151;
   font-size: 17px;
@@ -148,24 +156,33 @@ a:hover {
   border-width: 18px;
   margin-top: -18px;
 }
+.footnote{
+  font-size: 12px;
+}
 
 /* footer */
 footer {
-  font-size: 12px;
+  font-size: 15px;
+  margin-top: 20px;
 }
 footer .tel {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 47px;
+  line-height: 45px;
   float:left;
   color: #2ecc71;
-  margin-right: 10px;
+  margin-right: 20px;
+  font-weight: bold;
 }
 footer p {
   display: block;
   padding: 4px 0 0;
   margin: 0;
-  line-height: 1.4em;
+  line-height: 1.3em;
   color: #999999;
+  font-weight: 200;
+}
+.green{
+  color: #2ecc71;
 }
 
 .clearfix:before,
@@ -211,13 +228,17 @@ footer p {
   }
   footer .tel {
     float: none;
-    font-size: 30px;
+    font-size: 40px;
+    margin: 0;
+  }
+  footer br {
+    display: none;
   }
   .box {
-    font-size: 15px;
+    font-size: 13px;
   }
   .arrow {
-    margin-top: 32px;
+    margin-top: 20px;
     margin-left: 2%;
     margin-right: 8%;
   }
