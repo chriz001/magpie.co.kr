@@ -3,7 +3,7 @@
   -moz-box-sizing: border-box;
 }
 body {
-  font-family: Dotum,돋움,Arial,sans-serif;
+  font-family: "돋움", "Dotum", Arial, sans-serif;
   color: #555555;
   background: #ffffff;
 }
@@ -37,7 +37,7 @@ a:hover {
 
 /* brand */
 .brand {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .brand .logo{
   width: 75px;
@@ -61,6 +61,10 @@ a:hover {
 }
 .brand h3 span{
   font-weight: normal;
+}
+
+.studytogether{
+  margin-bottom: 30px;
 }
 
 /* study */
@@ -166,7 +170,7 @@ footer {
   margin-top: 20px;
 }
 footer .tel {
-  font-size: 47px;
+  font-size: 43px;
   line-height: 45px;
   float:left;
   color: #2ecc71;
@@ -178,7 +182,7 @@ footer p {
   display: block;
   padding: 4px 0 0;
   margin: 0;
-  line-height: 1.3em;
+  line-height: 1.2em;
   color: #999999;
   font-weight: 200;
 }
