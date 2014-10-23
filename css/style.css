@@ -128,7 +128,7 @@ h2{
 }
 .skype{
   float:left;
-  margin: 6px 6px 0 0;
+  margin: 5px 8px 0 0;
   width:22px;
 }
 .box{
@@ -172,7 +172,8 @@ h2{
 /* footer */
 footer {
   font-size: 15px;
-  margin-top: 15px;
+  margin-top: 22px;
+  margin-bottom: 30px;
 }
 footer .tel {
   font-size: 43px;
@@ -197,6 +198,11 @@ footer p {
 }
 .small{
   font-size: 0.9em;
+}
+.vingle{
+  font-size: 15px;
+  font-weight: bold;
+  color: #555555;
 }
 
 .clearfix:before,
